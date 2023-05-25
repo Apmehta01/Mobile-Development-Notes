@@ -1,0 +1,39 @@
+PLEASE CHECK PATH IN ANDROID TERMINAL BEFORE INTIATING THIS COMMANDS.
+
+NAVIGATE TO YOUR CODE REPOSITORY 
+
+RUN THE COMMAND :				git init
+ADD THE FILES TO COMMIT WITH :	git add .
+COMMIT THE CHANGES : 			git commit -m "Initial Commit"
+ADD THE REMOTE ORIGIN : 		git remote add origin your@git:repo/name
+VERIFY THE REMOTE URL :			git remote -v
+PUSH THE CHANGES GIT  :			git push origin master
+-----------------------------------------------------------------------------------
+if remote already exists 		git remote remove origin
+-----------------------------------------------------------------------------------
+git init
+git clone git.repository
+git pull develop  (where develop is branch)
+git add .
+git commit -m "m"
+git push origin develop
+----------------------------------------------------------------------------------------
+
+or create a new repository on the command line
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://oma-tfssvr-01/BenefitBeyond_DefaultCollection/Android/_git/KIOXIA
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/omaarpan/test.git
+git branch -M main
+git push -u origin main
+----------------------------------------------------------------------------------------
+
+git config --global user.email "arpan@omaemirates.com"
+git config --global user.password "Oma@12345678"
